@@ -21,4 +21,4 @@ else:
    sys.stdout.write("Please respond with 'yes' or 'no'")
 
 
-print((f"Your name is {name}. \nYou are {age} years old. \nYou are located in {location}. \n"))
+print((f"Your name is {name}. \nYou are {age} years old. \nYou are located in {location}."))

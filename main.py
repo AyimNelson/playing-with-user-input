@@ -4,7 +4,7 @@ location = input("Where are you from? ")
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'}
 
-choice = input("Do you like programming? ").lower()
+choice = input("Do you like programming?y/n ").lower()
 if choice in yes:
     print("You like programming")
 elif choice in no:
@@ -12,7 +12,7 @@ elif choice in no:
 else:
    sys.stdout.write("Please respond with 'yes' or 'no'")
 
-language = input("Do you speak English? ").lower()
+language = input("Do you speak English?y/n ").lower()
 if language in yes:
     print("You speak English")
 elif language in no:
